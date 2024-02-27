@@ -1,8 +1,7 @@
-import { FunctionComponent } from "react";
 import SectionTitleForm from "../components/SectionTitleForm";
 import styles from "./LandingPage.module.css";
 
-const LandingPage: FunctionComponent = () => {
+const LandingPage = () => {
   return (
     <div className={styles.landingPage}>
       <SectionTitleForm />

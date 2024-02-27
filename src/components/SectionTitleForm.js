@@ -1,7 +1,6 @@
-import { FunctionComponent } from "react";
 import styles from "./SectionTitleForm.module.css";
 
-const SectionTitleForm: FunctionComponent = () => {
+const SectionTitleForm = () => {
   return (
     <section className={styles.frameParent}>
       <div className={styles.wrapperQueenslogoColour1Wrapper}>
