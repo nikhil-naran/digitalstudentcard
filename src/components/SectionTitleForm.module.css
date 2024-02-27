@@ -1,0 +1,131 @@
+.queenslogoColour1Icon {
+  width: 100%;
+  flex: 1;
+  max-height: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  height: 100%;
+  transform: scale(1.074);
+}
+.wrapperQueenslogoColour1 {
+  width: 188px;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperQueenslogoColour1Wrapper {
+  height: 149px;
+  width: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.queensIdPortal {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 12px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.queensIdPortalWrapper {
+  width: 747px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mealSwipeButton {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslateblue);
+}
+.logOut {
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 1;
+}
+.logOutIcon2048x2048Cru8zab {
+  width: 27.2px;
+  height: 27px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.unassignedasthereisnoclearstru {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.buttons,
+.mealSwipeButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mealSwipeButtonParent {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-11xl) var(--padding-smi)
+    var(--padding-6xs);
+  position: relative;
+}
+.buttons {
+  align-self: stretch;
+  justify-content: center;
+  z-index: 2;
+}
+.buttonsWrapper,
+.frameParent {
+  width: 169px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.frameParent {
+  width: 1652px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-66xl);
+  color: var(--color-darkred);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1250px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
